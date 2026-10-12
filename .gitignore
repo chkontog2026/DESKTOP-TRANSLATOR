@@ -1,0 +1,37 @@
+output/
+temp/
+web_jobs/
+.venv-moss/
+.venv-nllb/
+tools/models/nllb-600m-int8/
+tools/models/nllb-600m-int8.lock
+tools/models/nllb-setup-*/
+tools/MOSS-Transcribe-Diarize/
+.env
+.web-auth
+*.log
+__pycache__/
+*.py[cod]
+.faster-whisper-config.json
+
+# Local credentials, settings, and Codex attachments
+.env.*
+!.env.example
+.faster-whisper-config*.json
+.codex-remote-attachments/
+
+# Downloaded media, generated subtitles, and local notes
+YouTube Downloads/
+*.srt
+*.vtt
+new 1*.txt
+
+# Duplicate backup copies
+* (1).*
+
+# Downloaded executables and model assets
+*.exe
+*.dll
+tools/ffmpeg-download/
+tools/ffmpeg/
+tools/models/
